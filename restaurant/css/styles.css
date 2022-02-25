@@ -52,6 +52,7 @@ body{
 }
 
 #nav-list{
+    background-color: white;
     margin-top: 10px;
 }
 
@@ -316,6 +317,8 @@ h3.menu-item-title{
     .navbar-brand p img{         /* Star-K */
         height: 20px;
     }
+    
+
     #collapsable-nav a{     /* Collapsed nav menu glyph */
         font-size: 1.2em;
     }
