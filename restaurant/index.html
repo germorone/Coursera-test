@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 
@@ -42,7 +44,7 @@
                             <span>Kosher Certified</span>
                         </p>
                     </div>
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                         data-target="#collapsable-nav" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -87,30 +89,7 @@
     <div id="xs-deliver" class="text-center visible-xs">
          *We deliver
     </div>
-    <div id="main-content" class="container">
-        <div class="jumbotron">
-            <img src="./images/jumbotron_768.jpg" alt="Picture of a restaurant" class="img-responsive visible-xs">
-        </div>
-
-        <div id="home-tiles" class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <a href="menu-categories.html"><div id="menu-title"><span>menu</span></div></a>
-            </div>
-
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <a href="single-category.html"><div id="specials-title"><span>specials</span></div></a>
-            </div>
-
-            <div class="col-md-4 col-sm-12 col-xs-12">
-                <a href="https://goo.gl/maps/rgCE2fWbhKA2XqhT8" target="blank">
-                    <div id="map-title">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.6752464053516!2d-76.71387678463584!3d39.363590279501345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid%20Chu&#39;s%20China%20Bistro!5e0!3m2!1ses!2sar!4v1645476309468!5m2!1ses!2sar" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        <span>map</span>
-                    </div>
-                </a>
-            </div>
-         </div> <!--End of home titles -->
-    </div> <!--End of main content -->
+    <div id="main-content" class="container"></div> <!--End of main content -->
 
     <footer class="panel-footer">
         <div class="container">
@@ -138,12 +117,18 @@
         </div>
     </footer>
 
+    
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js" integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw=" crossorigin="anonymous"></script>
 
-
-
-    <script src="./js/jquery-3.6.0.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.0.js" integrity="sha256-D6d1KSapXjq2tfZ6Ie9AYozkRHyB3fT2ys9mO2+4Wvc=" crossorigin="anonymous"></script>
+    
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>-->
+    <script src="./js/bootstrap.min.js"></script> 
     <script src="./js/script.js"></script>
+
+
+
 </body>
 
 </html>
