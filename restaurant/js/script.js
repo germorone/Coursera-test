@@ -12,7 +12,7 @@ $(function(){
 
 (function(global){
     var dc ={};
- //   var homeHtml = "<C:\Users\gmorone\Coursera-test\restaurant\snippets\home-snippet.html>";
+    //var homeHtml = "<C:\Users\gmorone\Coursera-test\restaurant\snippets\home-snippet.html>";
     var homeHtml = "snippets/home-snippet.html";
     var insertHtml = function (selector, html){
         var targetElem = document.querySelector(selector);
@@ -34,7 +34,8 @@ $(function(){
 })(window);
 
 
-$.ajax({
+
+/* $.ajax({
     url: "homeHtml.html",
     sendGetRequest : function(responseText){
         $('#main-content').text('responseText');
@@ -45,4 +46,4 @@ $.ajax({
         },esperar
         );
     }
-});
+}); */
